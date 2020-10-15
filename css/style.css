@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.float-left {
+  float: left;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+body {
+  width: 1200px;
+  margin: auto;
+}
+
+header {
+  background: #191970;
+  position: relative;
+  height: 500px;
+}
+
+nav {
+  height: 44px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  padding-left: 100px;
+  padding-top: 8px;
+}
+
+li {
+  font-size: 10px;
+  display: inline-block;
+  color: white;
+  line-height: 60px;
+  padding-left: 12px;
+}
+
+.seconda-ul {
+  padding-left: 50px;
+}
+
+.terza-ul {
+ padding-left: 120px;
+}
+
+.struttura {
+  background-color: #7FFF00;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.blogin {
+  background-color:  #191970;
+  color: white;
+  border-color: white;
+  padding: 5px 12px;
+  text-align: center;
+  font-size: 12px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.banner_header {
+  height: 380px;
+  width: 860px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.vicino-banner {
+  height: 300px;
+  width: 400px;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 100px;
+  transform: translateY(-50%, -50%);
+  color: white;
+}
+
+.piano {
+  background-color: #7FFF00;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.prima-main {
+  height: 150px;
+  background: lightgrey;
+  position: relative;
+}
+
+.testo1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h3 {
+  text-align: center;
+  font-size: 22px;
+}
+
+.scritto1 {
+  text-align: center;
+  font-size: 17px;
+  padding-top: 15px;
+  color: grey;
+}
+
+.prima-riga:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.prima-riga {
+  width: 1000px;
+  margin:auto;
+}
+.sinistra, .centrale, .destra {
+  width: 31.5%;
+}
+
+.sinistra, .centrale {
+  margin-right: 27px;
+}
+
+.area {
+  width: 50%;
+  height: 50%;
+  margin-top: 25px;
+  margin-left: 70px;
+}
+
+.area2 {
+  width: 80%;
+  height: 88%;
+  margin-top: 33px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+
+.area3 {
+  width: 60%;
+  height: 60%;
+  margin-top: 23px;
+  margin-bottom: 5px;
+  margin-left: 60px;
+}
+
+.particolare {
+  color: #7FFF00;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.special {
+  width: 50px;
+  margin: auto;
+  color: grey;
+  margin-bottom: 15px;
+}
+
+.testo2 {
+  font-size: 14px;
+  color: grey;
+  text-align: center;
+}
+
+.mezzo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.seconda-riga {
+  width: 900px;
+  margin: auto;
+}
+
+.seconda-riga:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.area4 {
+  width: 350px;
+  height: 350px;
+  margin-bottom: 25px;
+  margin-left: 60px;
+}
+
+.area5 {
+  float: right;
+  width: 350px;
+  height: 350px;
+  margin-bottom: 25px;
+  margin-left: 60px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.testo3 {
+  font-size: 14px;
+  color: grey;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+a:hover {
+  background: lightblue;
+  text-decoration: none underline;
+}
+
+footer {
+  bottom: 0;
+  height: 150px;
+  background: lightgrey;
+  margin-bottom: 50px;
+}
+
+footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.finale1 {
+  font-size: 30px;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+.finale2 {
+  margin-left: 300px;
+  margin-top: 65px;
+  font-size: 18px;
+  color: grey;
+}
+
+select {
+  margin-left: 20px;
+  font-size: 14px;
+  color: grey;
+  width: 180px;
+  background: lightgrey;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+option {
+  font-size: 14px;
+  background: white;
+  width: 80px;
+}
+
+.finale3 {
+  margin-left: 40px;
+}
+
+.visual {
+  background-color: #7FFF00;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 55px;
+  display: block;
+}
+
+.help {
+  background-color: #7FFF00;
+  margin-left: 75px;
+  margin-top: 12px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+}
